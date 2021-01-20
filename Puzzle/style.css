@@ -1,0 +1,24 @@
+#solucion {
+  background-image: url('img/naranja.jpg');
+  background-size: contain;
+  background-repeat:no-repeat;
+  height: 319px;
+  opacity: 0.25;
+}
+
+.pos {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ui-widget-header {
+  border: none;
+  background: transparent;
+}
+.ui-widget-content {
+  background: transparent;
+}
