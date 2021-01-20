@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap y jQueryUI CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous"/>-->
+    <!-- jQuery, jQueryUI, Popper.js y Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
+    <!-- JavaScript y CSS personal -->
+    <script src="script.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <title >Agenda Telefónica</title>
+  </head>
+
+  <body>
+      <div class="pt-4 container" >
+        <div class="row" >
+          <div class="col-md-6" id="agenda" >
+          </div>
+          <div class="col-md-6" >
+            <table class="table"><thead class="thead-dark"><tr><th scope="col">Introducir datos del contacto</th></tr></thead><tbody></tbody></table>
+              <form >
+                <fieldset class="form-group" >
+                  <input type="text" class="form-control" id="formGroupInput1" placeholder="Nombre">
+                </fieldset>
+                <fieldset class="form-group" >
+                  <input type="text" class="form-control" id="formGroupInput2" placeholder="Apellidos">
+                </fieldset>
+                 <fieldset class="form-group" >
+                  <input type="text" class="form-control" id="formGroupInput3" placeholder="Teléfono">
+                </fieldset>
+                  <button type="button" id="addBoton" class="btn btn-dark" >Añadir contacto</button>
+                  <button type="button" id="delStorage" class="btn btn-dark" >Borrar Agenda</button>
+              </form>
+          </div>
+        </div>
+      </div>
+  </body>
+
+</html>
+
